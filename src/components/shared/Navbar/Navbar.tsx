@@ -196,13 +196,6 @@ export default function Navbar() {
                           </div>
                         </div>
                       </div>
-                      <button
-                        onClick={() => setIsOpen(false)}
-                        className="h-9 w-9 flex items-center justify-center rounded-lg border border-[#02590F]/30 bg-white/50 hover:border-[#02590F]/50 hover:bg-white/70 transition-all duration-200 active:scale-95"
-                        aria-label="Close menu"
-                      >
-                        <X className="h-4 w-4 text-[#02590F]" />
-                      </button>
                     </div>
 
                     <div className="flex-1 overflow-y-auto overscroll-contain px-4 py-4">
